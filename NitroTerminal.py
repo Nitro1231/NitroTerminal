@@ -37,8 +37,11 @@ def getSoaringStock():
                 i += 1
                 print(f'[{i}/{len(stocks)}] {s}')
         except:
+            i += 1
             print(f'[{i}/{len(stocks)}] {s} - Err')
 
     print(soaringStocks)
         
 getSoaringStock()
+
+# ATI, HRB, TER, RGRNF, ARAY, ARTW, ATNI, PTVCB, CIZN, CLRO, EGLE, FUNC, GERN, BREW, ITRN, JAZZ, MMLP, SNOA, OPOF, GSV, BHB, CVM, CIX, FSP, GV, ISR, NTN, NHC, RLGT, RVP, SIF, TGC, TMP, BTG, VNRX, PHI, PEI, CLI, MYE, NL, BFS, SOL, ALSMY, ALNPY, BKEAY, CMPGY, CPKPY, DQJCY, GBOOY, GTMAY, JGCCY, MTNOY, PCCWY, SSLZY, WLMIY, FERGY, HENOY, KLBAY, SGTZY, SMUUY, CTLT, SFST, LMRK, FMAO, BFST, MEDP, QADB, TCX, MJCO, PT, YORW, WPRT, FOXF, WING, PLL, TC, GWGH, AHCO, ALRS, TIGO, BVN, BTG, ERA
